@@ -70,6 +70,14 @@ print(stack)  # Output: (1,2)
 
 ### Pathfinding Game
 
+Launch the Tkinter interface with:
+
+```bash
+python main.py
+```
+
+In the GUI, click cells to toggle ocean terrain, enter start/end coordinates, and use either pathfinding button to display the resulting route.
+
 ```python
 from game import Map
 
